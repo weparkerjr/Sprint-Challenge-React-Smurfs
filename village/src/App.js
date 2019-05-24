@@ -30,6 +30,10 @@ componentDidMount() {
     .catch(err => console.log(err));
 }
 
+updateSmurfs = (newSmurfs) => {
+  this.setState({ smurfs: newSmurfs })
+}
+
 
 
   render() {
