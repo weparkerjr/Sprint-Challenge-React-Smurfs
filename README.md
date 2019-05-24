@@ -69,25 +69,25 @@ Follow these steps to set up and work on your project:
 ## - [ ] Create a form that will allow users to add Smurfs to the Smurf DB.
 ## - [ ] If a Smurf is created correctly, you should see a response that is an array of Smurfs with unique id's assigned to each Smurf.
 
-- Example:
+## - Example:
 
-```js
-{
-  name: 'Sleepy',
-  age: 323,
-  height: '5cm'
-}
-```
+## ```js
+## {
+##  name: 'Sleepy',
+##  age: 323,
+##  height: '5cm'
+## }
+## ```
 
 ### Stage 2
 
-Add a Router to this application by using React Router.
+## Add a Router to this application by using React Router.
 
-- [ ] You'll start by wrapping your `root` component in the `Router` component.
-- [ ] Declare your routes with `Route`.
-- [ ] Then make it so you can navigate to your routes using `Link`.
-- [ ] Create two `routes` in your `App` component, one at `'/'` for your `Smurfs` component,and one at `/smurf-form` for your form.
-- [ ] Then in your `App` component, create a nav bar that will use `NavLink` to route to your different pages.
+## - [ ] You'll start by wrapping your `root` component in the `Router` component.
+## - [ ] Declare your routes with `Route`.
+ - [ ] Then make it so you can navigate to your routes using `Link`.
+## - [ ] Create two `routes` in your `App` component, one at `'/'` for your `Smurfs` component,and one at `/smurf-form` for your form.
+## - [ ] Then in your `App` component, create a nav bar that will use `NavLink` to route to your different pages.
 
 ## STRETCH PROBLEMS
 
